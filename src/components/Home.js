@@ -121,7 +121,7 @@ const Home = () => {
           <button className="button-ai-help">Launch a trip with AI</button>
         </div>
         <div className="img-ai-help">
-          <img src={image2} alt="" className="imagino-ai-help" />
+          <img src={image2} alt="Hello" className="imagino-ai-help" />
         </div>
       </div> */}
       {/* parent Ai-help section end */}
