@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+.about-us-container {
+  background-color: #dbd8d8;
+  /* box-shadow: 1px 2px 2px 2px rgba(162, 70, 70, 0.479); */
+  /* padding: 40px; */
+  width: 100%;
+  /* margin: 10px; */
+}
+
+/* Hero section */
+.hero-section {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.hero-section h1 {
+  font-size: 32px;
+  color: #fffbfb;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.team-section {
+  margin-top: 60px;
+}
+
+.team-section h2 {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member-card {
+  background-color: #00ffaab7;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.team-member-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  background-color: #9acfa7;
+}
+
+.team-member-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member-details h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.team-member-details .role {
+  font-size: 18px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.team-member-details .description {
+  font-size: 16px;
+  color: #888;
+  margin-top: 10px;
+}
+
+/* Mission section */
+.mission-section {
+  padding: 20px;
+  margin-bottom: 3rem;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.mission-section h2 {
+  font-size: 2rem;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.mission-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+#page-header {
+  /* background-image: url(../images/ABOUTUS.jpg); */
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#page-header h1,
+h2 {
+  color: #fff;
+}
+
+.Story {
+  margin-bottom: 3rem;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.Story h2 {
+  font-size: 2rem;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Story p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Additional styling for the mission content */
+.mission-content {
+  display: flex;
+  align-items: center;
+  gap: 100px; /* Adjust the gap between image and text */
+  background-color: #ffffff; /* Background color for the whole section */
+  padding: 25px; /* Add padding for spacing */
+}
+
+/* Style for the image container */
+.image-container {
+  border: 0px; /* Border style for the image container */
+  padding: 2px; /* Add padding for spacing */
+  max-width: 60%; /* Limit the image container width */
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5px; /* Add some border radius to soften edges */
+}
+
+/* Style for the text container */
+.text-container {
+  flex: 1;
+  font-size: 18px; /* Adjust font size */
+  color: #333; /* Text color */
+}
+
+/* Style for heading inside the text container */
+.text-container h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #222; /* Darken the heading color */
+}
+
+.text-container p {
+  margin-bottom: 20px;
+}
+/* Style for the story container */
+.story-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+/* Style for the story content */
+.story-content {
+  flex: 1;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style for heading inside the story content */
+.story-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Style for the team members section */
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .team-member-card {
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-us-container,
+  .section {
+    padding: 1.5rem;
+  }
+
+  .hero-section h1 {
+    font-size: 1.75rem;
+  }
+
+  .team-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .team-member-card {
+    max-width: calc(100% - 20px);
+  }
+
+  .team-member-details h3 {
+    font-size: 1.25rem;
+  }
+
+  .team-member-details .role {
+    font-size: 1rem;
+  }
+
+  .team-member-details .description {
+    font-size: 0.875rem;
+  }
+
+  .mission-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .mission-section p {
+    font-size: 0.875rem;
+  }
+
+  #page-header h1,
+  #page-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .story-content h2 {
+    font-size: 1.75rem;
+  }
+
+  .story-content p {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .team-member-card {
+    margin: 10px 0;
+    max-width: 100%;
+  }
+}
+
+/* banner section */
+.about-us-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}

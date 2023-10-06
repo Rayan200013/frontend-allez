@@ -1,0 +1,9 @@
+/* @import "~mdb-ui-kit/css/mdb.min.css"; */
+
+.allez-retour-link {
+  color: #00e676 !important;
+}
+
+.allez-retour-link:hover {
+  color: #e6ff5a !important;
+}

@@ -1,0 +1,21 @@
+/* CategoryComponent.css */
+
+.category-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+}
+
+.category-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.category-card h2 {
+  font-size: 1.5rem;
+}
+
+.category-card a {
+  text-decoration: none;
+  color: blue;
+}

@@ -1,0 +1,58 @@
+.rayan-navBar {
+  z-index: 9999;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: transparent !important;
+  /* box-shadow: 0px 0px 51px #ccc; */
+}
+.nav-item {
+  color: #fff !important;
+  text-transform: uppercase !important;
+}
+.nav-item a {
+  color: #000 !important;
+  font-family: Roboto;
+  font-weight: 600;
+}
+.nav-item a:hover {
+  color: #e6ff5a !important;
+}
+
+.serachIcon-section {
+  cursor: pointer;
+}
+
+.allez-nav-search-button {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: #8f8f8f !important;
+}
+.allez-nav-search-button:hover {
+  background-color: #fff;
+  color: #000 !important;
+}
+
+.allez-nav-search-button a {
+  text-decoration: none;
+  color: #212529 !important;
+}
+.allez-nav-search-button a:hover {
+  color: #000000;
+}
+
+/* Breadcrump styling */
+.breadcrumb-divider {
+  --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E");
+  padding: 10px !important;
+  background-color: #ffffff;
+}
+
+li.breadcrumb-item a {
+  text-decoration: none !important;
+}
+
+.logo-allez-retour {
+  width: 130px !important;
+}

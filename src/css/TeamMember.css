@@ -1,0 +1,53 @@
+.team-member-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .team-member-card img {
+    max-width: 100px;
+    border-radius: 50%;
+  }
+  
+  .team-member-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .team-member-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  @media screen and (max-width: 768px) {
+    .team-member-card {
+      max-width: 100%; /* Cards take full width on smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .about-us-container {
+      padding: 1rem; /* Reduce padding for smaller screens */
+    }
+  
+    .hero-section h1 {
+      font-size: 1.5rem;
+    }
+  
+    .team-section h2 {
+      font-size: 1.75rem;
+    }
+  
+    .team-member-card {
+      padding: 1rem; /* Reduce padding for smaller screens */
+    }
+  
+    .team-member-card h3 {
+      font-size: 1rem;
+    }
+  
+    .team-member-card p {
+      font-size: 0.75rem;
+    }
+  }

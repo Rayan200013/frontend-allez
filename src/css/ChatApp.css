@@ -1,0 +1,62 @@
+/* ChatApp.css */
+
+/* Chat container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Individual messages */
+  .message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* User message */
+  .message.Tourism {
+    background-color: #007bff; /* Blue color for user messages */
+    color: white;
+  }
+  
+  /* Bot message */
+  .message.AI {
+    background-color: #f0f0f0; /* Gray color for bot messages */
+    color: #333;
+  }
+  
+  /* Chat input form */
+  .chat-input {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue color for the submit button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

@@ -1,0 +1,50 @@
+.Destination-section {
+  padding: 100px 0;
+}
+
+.destination-headeing {
+  font-size: 30px;
+  color: #8f8f8f;
+  text-transform: capitalize;
+  margin: 30px 0;
+}
+
+/* single Destination start */
+
+.top-section {
+  margin: 100px 0 !important;
+}
+
+.bottom-section {
+  margin-bottom: 100px !important;
+}
+
+.top-section-destination {
+  margin: 100px !important;
+  background: url("../images/destination.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.top-section-destination,
+h1 p {
+  color: #fff !important;
+}
+
+.top-section-single-destination {
+  background: url("../images/destinationsingle.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .top-section-destination {
+    margin: 20px !important;
+  }
+}
+
+.desti-three {
+  background-position: center;
+}

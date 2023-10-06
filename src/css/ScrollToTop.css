@@ -1,0 +1,21 @@
+/* styles.css */
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00e676;
+  color: #fff;
+  border: none;
+  border-radius: 50%; /* Makes it a circle */
+  width: 40px; /* Adjust the size */
+  height: 40px; /* Adjust the size */
+  font-size: 20px; /* Adjust the icon size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.scroll-to-top-button:hover {
+  background-color: #e6ff5a;
+}
